@@ -1,1 +1,8 @@
-<app-mapquest-static></app-mapquest-static>
+<app-mapquest-static
+  [locations]="locations"
+  [zoom]="zoom"
+></app-mapquest-static>
+<!-- <app-mapquest-static location="Casalecchio di Reno"></app-mapquest-static> -->
+
+<button (click)="zoom = zoom + 1">+</button>
+<button (click)="zoom = zoom - 1">-</button>

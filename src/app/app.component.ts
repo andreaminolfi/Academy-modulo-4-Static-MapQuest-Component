@@ -6,5 +6,6 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  zoom: number = 5;
+  locations: string[] = ['Cuneo', 'Torino', 'Milano'];
 }
